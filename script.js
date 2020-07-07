@@ -246,6 +246,7 @@ function showMessage({ chan, type, message = '', data = {}, timeout = 0, attribs
     let nameEle = document.createElement('span');
     nameEle.classList.add('user-name');
     nameEle.innerText = data.name;
+    //nameEle.innerText = data['display-name'];
     if (data.color) {
         nameEle.style.color = data.color;
     }
