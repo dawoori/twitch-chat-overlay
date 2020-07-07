@@ -242,7 +242,7 @@ function showMessage({ chan, type, message = '', data = {}, timeout = 0, attribs
         }
       }, []);
     }
-    console.log(data.color);
+
     let nameEle = document.createElement('span');
     nameEle.classList.add('user-name');
     nameEle.innerText = data.name;
