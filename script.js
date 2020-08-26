@@ -76,7 +76,7 @@ if (testing) {
       reconnect: true,
       secure: true },
 
-    channels: ['xkwhd'] });
+    channels: ['human1031'] });
 
   addListeners();
   client.connect();
